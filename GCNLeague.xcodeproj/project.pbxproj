@@ -15,6 +15,10 @@
 		06699FA7219E2D1800CE8FCD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06699FA5219E2D1800CE8FCD /* LaunchScreen.storyboard */; };
 		06699FB2219E2D1800CE8FCD /* GCNLeagueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06699FB1219E2D1800CE8FCD /* GCNLeagueTests.swift */; };
 		06699FBD219E2D1800CE8FCD /* GCNLeagueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06699FBC219E2D1800CE8FCD /* GCNLeagueUITests.swift */; };
+		06699FCB219E349D00CE8FCD /* Golfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06699FCA219E349D00CE8FCD /* Golfer.swift */; };
+		06699FD5219E37A100CE8FCD /* Round.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06699FD4219E37A100CE8FCD /* Round.swift */; };
+		06699FD7219E3AF400CE8FCD /* GolferTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06699FD6219E3AF400CE8FCD /* GolferTableViewController.swift */; };
+		06699FD9219E3C0400CE8FCD /* GolferTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06699FD8219E3C0400CE8FCD /* GolferTableCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		06699FB8219E2D1800CE8FCD /* GCNLeagueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCNLeagueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		06699FBC219E2D1800CE8FCD /* GCNLeagueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GCNLeagueUITests.swift; sourceTree = "<group>"; };
 		06699FBE219E2D1800CE8FCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06699FCA219E349D00CE8FCD /* Golfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Golfer.swift; sourceTree = "<group>"; };
+		06699FD4219E37A100CE8FCD /* Round.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Round.swift; sourceTree = "<group>"; };
+		06699FD6219E3AF400CE8FCD /* GolferTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolferTableViewController.swift; sourceTree = "<group>"; };
+		06699FD8219E3C0400CE8FCD /* GolferTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GolferTableCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +110,14 @@
 				06699F99219E2D1600CE8FCD /* AppDelegate.swift */,
 				06699F9B219E2D1600CE8FCD /* ViewController.swift */,
 				06699F9D219E2D1600CE8FCD /* Main.storyboard */,
+				06699FD6219E3AF400CE8FCD /* GolferTableViewController.swift */,
+				06699FD8219E3C0400CE8FCD /* GolferTableCell.swift */,
 				06699FA3219E2D1800CE8FCD /* Assets.xcassets */,
 				06699FA5219E2D1800CE8FCD /* LaunchScreen.storyboard */,
 				06699FA8219E2D1800CE8FCD /* Info.plist */,
 				06699FA0219E2D1600CE8FCD /* GCNLeague.xcdatamodeld */,
+				06699FCA219E349D00CE8FCD /* Golfer.swift */,
+				06699FD4219E37A100CE8FCD /* Round.swift */,
 			);
 			path = GCNLeague;
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06699FD7219E3AF400CE8FCD /* GolferTableViewController.swift in Sources */,
 				06699FA2219E2D1600CE8FCD /* GCNLeague.xcdatamodeld in Sources */,
 				06699F9C219E2D1600CE8FCD /* ViewController.swift in Sources */,
+				06699FCB219E349D00CE8FCD /* Golfer.swift in Sources */,
+				06699FD9219E3C0400CE8FCD /* GolferTableCell.swift in Sources */,
+				06699FD5219E37A100CE8FCD /* Round.swift in Sources */,
 				06699F9A219E2D1600CE8FCD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
